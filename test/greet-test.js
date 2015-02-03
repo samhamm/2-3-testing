@@ -1,0 +1,3 @@
+// greet.js
+
+'use strict';
