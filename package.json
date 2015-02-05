@@ -1,0 +1,30 @@
+{
+  "name": "2-3-testing",
+  "version": "1.0.0",
+  "description": "Assignment on Mocha/Chai testing for Code Fellows JavaScript Development Accelerator, with added package.json and Gruntfile on 2/4.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samhamm/2-3-testing.git"
+  },
+  "author": "Sam Hamm <samhamm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samhamm/2-3-testing/issues"
+  },
+  "homepage": "https://github.com/samhamm/2-3-testing",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-simple-mocha": "^0.4.0",
+    "mocha": "^2.1.0"
+  }
+}
